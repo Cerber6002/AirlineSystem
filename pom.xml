@@ -75,7 +75,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>org.example.airlinesystem/org.example.airlinesystem.HelloApplication</mainClass>
+              <mainClass>org.example.airlinesystem/org.example.airlinesystem.AirlineSystem2</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
