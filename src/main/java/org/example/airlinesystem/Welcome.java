@@ -1,4 +1,5 @@
 package org.example.airlinesystem;
 
-public class AirlineSystem1 {
+public class Welcome {
 }
+

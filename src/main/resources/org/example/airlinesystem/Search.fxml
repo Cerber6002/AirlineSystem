@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.airlinesystem.Search">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="602.0">
+         <children>
+            <TextField layoutX="166.0" layoutY="61.0" />
+            <Label layoutX="68.0" layoutY="99.0" text="Arrival:" />
+            <Label layoutX="43.0" layoutY="140.0" text="Number of passengers:" />
+            <Label layoutX="58.0" layoutY="65.0" text="Departure:" />
+            <Label layoutX="59.0" layoutY="192.0" text="Data:" />
+            <Label layoutX="59.0" layoutY="238.0" text="Class of service:" />
+            <TextField layoutX="152.0" layoutY="188.0" />
+            <TextField layoutX="162.0" layoutY="95.0" />
+            <TextField layoutX="189.0" layoutY="136.0" />
+            <TextField layoutX="162.0" layoutY="234.0" />
+            <Label layoutX="189.0" layoutY="14.0" text="Searching Page">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <MenuBar layoutX="-7.0" layoutY="2.0">
+              <menus>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Button layoutX="265.0" layoutY="310.0" mnemonicParsing="false" text="Book">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
