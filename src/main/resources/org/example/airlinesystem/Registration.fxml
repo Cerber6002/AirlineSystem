@@ -14,7 +14,7 @@
    <children>
       <Pane layoutX="1.0" prefHeight="414.0" prefWidth="614.0">
          <children>
-            <Label layoutX="14.0" layoutY="14.0" text="Regestration">
+            <Label layoutX="14.0" layoutY="14.0" text="Registration">
                <font>
                   <Font size="32.0" />
                </font>
@@ -31,7 +31,7 @@
                <font>
                   <Font size="18.0" />
                </font></Label>
-            <Label layoutX="25.0" layoutY="160.0" text="Gander:">
+            <Label layoutX="25.0" layoutY="160.0" text="Gender:">
                <font>
                   <Font size="18.0" />
                </font></Label>
@@ -46,14 +46,19 @@
                <padding>
                   <Insets top="10.0" />
                </padding></Label>
-            <TextField layoutX="87.0" layoutY="81.0" promptText="nameField" />
-            <TextField layoutX="104.0" layoutY="121.0" promptText="surnameField" />
+            <TextField layoutX="87.0" layoutY="81.0" />
+            <TextField layoutX="104.0" layoutY="121.0" />
             <RadioButton layoutX="113.0" layoutY="165.0" mnemonicParsing="false" text="Male" />
             <RadioButton layoutX="203.0" layoutY="165.0" mnemonicParsing="false" text="Female" />
-            <TextField layoutX="72.0" layoutY="201.0" promptText="ageField" />
-            <TextField layoutX="86.0" layoutY="241.0" promptText="emailField" />
-            <PasswordField layoutX="118.0" layoutY="286.0" promptText="passwordField" />
-            <Button layoutX="264.0" layoutY="343.0" mnemonicParsing="false" text="Registrate">
+            <TextField layoutX="72.0" layoutY="201.0" />
+            <TextField layoutX="86.0" layoutY="241.0" />
+            <PasswordField layoutX="118.0" layoutY="286.0" />
+            <Button layoutX="149.0" layoutY="342.0" mnemonicParsing="false" text="Registrate">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="307.0" layoutY="342.0" mnemonicParsing="false" text="Clear">
                <font>
                   <Font size="15.0" />
                </font>

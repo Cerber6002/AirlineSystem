@@ -1,8 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.airlinesystem.Flights">
-
+   <children>
+      <Pane prefHeight="408.0" prefWidth="607.0">
+         <children>
+            <Label layoutX="15.0" layoutY="14.0" text="Ticket Infotmation">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="60.0" text="Name:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="100.0" text="Ticket ID:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="140.0" text="Place of arrival:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="180.0" text="Departure time:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="220.0" text="Class of service:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="260.0" text="Number of passengers:">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button layoutX="160.0" layoutY="329.0" mnemonicParsing="false" text="Cancel reservation">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="361.0" layoutY="329.0" mnemonicParsing="false" text="Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField layoutX="76.0" layoutY="58.0" />
+            <TextField layoutX="138.0" layoutY="178.0" />
+            <TextField layoutX="125.0" layoutY="138.0" />
+            <TextField layoutX="138.0" layoutY="218.0" />
+            <TextField layoutX="192.0" layoutY="258.0" />
+            <TextField layoutX="94.0" layoutY="98.0" />
+         </children>
+      </Pane>
+   </children>
 </AnchorPane>
