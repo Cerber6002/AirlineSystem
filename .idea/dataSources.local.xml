@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-243.21565.193">
-    <data-source name="AirlineTicketManagement" uuid="a9687ee9-21c8-40aa-a11d-f88dec416e58">
+  <component name="dataSourceStorageLocal" created-in="IU-242.21829.142">
+    <data-source name="postgres@localhost" uuid="6cfb5aab-c23c-4002-ac8e-c8246a475b95">
       <database-info product="PostgreSQL" version="15.9" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-version="15.9" exact-driver-version="42.7">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -14,10 +15,7 @@
             <node kind="database" qname="@">
               <node kind="schema" qname="@" />
             </node>
-            <node kind="database" qname="final_project">
-              <node kind="schema" qname="public" />
-            </node>
-            <node kind="database" qname="airlineticketmanagement" />
+            <node kind="database" qname="final_project" />
           </node>
         </introspection-scope>
       </schema-mapping>
