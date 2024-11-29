@@ -1,31 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.airlinesystem.Center">
-   <children>
-      <Pane layoutX="-2.0" layoutY="-2.0" prefHeight="409.0" prefWidth="606.0">
-         <children>
-            <Button layoutX="270.0" layoutY="125.0" mnemonicParsing="false" text="Search">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Button>
-            <Button layoutX="271.0" layoutY="200.0" mnemonicParsing="false" text="Flights">
-               <font>
-                  <Font size="15.0" />
-               </font>
-            </Button>
-            <Label layoutX="207.0" layoutY="14.0" text="Center System">
-               <font>
-                  <Font size="30.0" />
-               </font>
-            </Label>
-         </children>
-      </Pane>
-   </children>
-</AnchorPane>
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1">
+  <tabs>
+    <Tab text="Search">
+         <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="40.0" layoutY="50.0" text="Departure">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="110.0" text="Data :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="80.0" text="Arrivle :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="40.0" layoutY="140.0" text="Class :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <RadioButton layoutX="230.0" layoutY="142.0" mnemonicParsing="false" text="Economy" />
+                  <RadioButton layoutX="310.0" layoutY="142.0" mnemonicParsing="false" text="Business" />
+                  <RadioButton layoutX="390.0" layoutY="142.0" mnemonicParsing="false" text="Frist Class" />
+                  <DatePicker layoutX="230.0" layoutY="110.0" />
+                  <TextField layoutX="230.0" layoutY="45.0" />
+                  <TextField layoutX="230.0" layoutY="78.0" />
+               </children>
+            </AnchorPane>
+         </content></Tab>
+    <Tab text="Flights">
+         <content>
+            <TableView prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="flight ID" />
+                <TableColumn prefWidth="75.0" text="fight #" />
+                  <TableColumn prefWidth="75.0" text="Dep City" />
+                  <TableColumn prefWidth="75.0" text="Arr City" />
+                  <TableColumn prefWidth="75.0" text="dep Time" />
+                  <TableColumn prefWidth="75.0" text="Arr time" />
+              </columns>
+            </TableView>
+         </content></Tab>
+      <Tab text="Ticket">
+         <content>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="23.0" layoutY="22.0" prefHeight="22.0" prefWidth="107.0" text="Enter Ticket ID :" textAlignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField layoutX="141.0" layoutY="21.0" text="kns;dlk55" />
+                  <Button layoutX="331.0" layoutY="21.0" mnemonicParsing="false" text="Search" />
+                  <TableView layoutX="-3.0" layoutY="59.0" prefHeight="238.0" prefWidth="600.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="ticket ID" />
+                      <TableColumn prefWidth="75.0" text="flight ID" />
+                        <TableColumn prefWidth="75.0" text="customer ID" />
+                        <TableColumn prefWidth="75.0" text="Seta #" />
+                        <TableColumn prefWidth="75.0" text="issue date" />
+                        <TableColumn prefWidth="75.0" text="departure date" />
+                        <TableColumn prefWidth="75.0" text="status" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+         </content>
+      </Tab>
+  </tabs>
+</TabPane>

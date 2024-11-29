@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
@@ -12,24 +13,39 @@
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.airlinesystem.Search">
    <children>
-      <Pane prefHeight="400.0" prefWidth="602.0">
+      <Pane layoutX="-1.0" prefHeight="400.0" prefWidth="602.0">
          <children>
-            <TextField layoutX="166.0" layoutY="61.0" />
-            <Label layoutX="68.0" layoutY="99.0" text="Arrival:" />
-            <Label layoutX="43.0" layoutY="140.0" text="Number of passengers:" />
-            <Label layoutX="58.0" layoutY="65.0" text="Departure:" />
-            <Label layoutX="59.0" layoutY="192.0" text="Data:" />
-            <Label layoutX="59.0" layoutY="238.0" text="Class of service:" />
-            <TextField layoutX="152.0" layoutY="188.0" />
-            <TextField layoutX="162.0" layoutY="95.0" />
-            <TextField layoutX="189.0" layoutY="136.0" />
-            <TextField layoutX="162.0" layoutY="234.0" />
-            <Label layoutX="189.0" layoutY="14.0" text="Searching Page">
+            <TextField layoutX="250.0" layoutY="65.0" />
+            <Label layoutX="40.0" layoutY="95.0" text="Arrival :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="40.0" layoutY="125.0" text="Number of passengers :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="40.0" layoutY="65.0" text="Departure :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="40.0" layoutY="155.0" text="Data :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <Label layoutX="40.0" layoutY="195.0" text="Class of service :">
+               <font>
+                  <Font size="15.0" />
+               </font></Label>
+            <TextField layoutX="250.0" layoutY="155.0" />
+            <TextField layoutX="250.0" layoutY="95.0" />
+            <TextField layoutX="250.0" layoutY="125.0" />
+            <TextField layoutX="250.0" layoutY="195.0" />
+            <Label layoutX="189.0" layoutY="5.0" text="Searching Page">
                <font>
                   <Font size="30.0" />
                </font>
             </Label>
-            <MenuBar layoutX="-7.0" layoutY="2.0">
+            <MenuBar layoutX="3.0" layoutY="5.0" prefHeight="31.0" prefWidth="74.0">
               <menus>
                 <Menu mnemonicParsing="false" text="Help">
                   <items>
@@ -48,6 +64,7 @@
                   <Font size="15.0" />
                </font>
             </Button>
+            <Separator layoutX="215.0" layoutY="65.0" orientation="VERTICAL" prefHeight="155.0" prefWidth="8.0" />
          </children>
       </Pane>
    </children>
