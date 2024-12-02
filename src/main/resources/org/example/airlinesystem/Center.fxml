@@ -18,32 +18,42 @@
          <content>
             <AnchorPane prefHeight="200.0" prefWidth="200.0">
                <children>
-                  <Label layoutX="40.0" layoutY="50.0" text="Departure">
+                  <Label layoutX="40.0" layoutY="90.0" text="Departure">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="40.0" layoutY="110.0" text="Data :">
+                  <Label layoutX="40.0" layoutY="150.0" text="Data :">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="40.0" layoutY="80.0" text="Arrivle :">
+                  <Label layoutX="40.0" layoutY="120.0" text="Arrivle :">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <Label layoutX="40.0" layoutY="140.0" text="Class :">
+                  <Label layoutX="40.0" layoutY="180.0" text="Class :">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
-                  <RadioButton layoutX="230.0" layoutY="142.0" mnemonicParsing="false" text="Economy" />
-                  <RadioButton layoutX="310.0" layoutY="142.0" mnemonicParsing="false" text="Business" />
-                  <RadioButton layoutX="390.0" layoutY="142.0" mnemonicParsing="false" text="Frist Class" />
-                  <DatePicker layoutX="230.0" layoutY="110.0" />
-                  <TextField layoutX="230.0" layoutY="45.0" />
-                  <TextField layoutX="230.0" layoutY="78.0" />
+                  <RadioButton layoutX="230.0" layoutY="182.0" mnemonicParsing="false" text="Economy" />
+                  <RadioButton layoutX="310.0" layoutY="182.0" mnemonicParsing="false" text="Business" />
+                  <RadioButton layoutX="390.0" layoutY="182.0" mnemonicParsing="false" text="Frist Class" />
+                  <DatePicker layoutX="230.0" layoutY="150.0" />
+                  <TextField layoutX="230.0" layoutY="85.0" />
+                  <TextField layoutX="230.0" layoutY="118.0" />
+                  <Label layoutX="168.0" text="Search Ticket ">
+                     <font>
+                        <Font size="32.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="484.0" layoutY="223.0" text="Search">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
                </children>
             </AnchorPane>
          </content></Tab>
@@ -77,11 +87,12 @@
                       <TableColumn prefWidth="75.0" text="flight ID" />
                         <TableColumn prefWidth="75.0" text="customer ID" />
                         <TableColumn prefWidth="75.0" text="Seta #" />
-                        <TableColumn prefWidth="75.0" text="issue date" />
-                        <TableColumn prefWidth="75.0" text="departure date" />
-                        <TableColumn prefWidth="75.0" text="status" />
+                        <TableColumn fx:id="issu" prefWidth="75.0" text="issue date" />
+                        <TableColumn fx:id="dapr" prefWidth="75.0" text="departure date" />
+                        <TableColumn fx:id="status" prefWidth="75.0" text="status" />
                     </columns>
                   </TableView>
+                  <Button layoutX="518.0" layoutY="314.0" mnemonicParsing="false" text="diactivate" />
                </children>
             </AnchorPane>
          </content>
