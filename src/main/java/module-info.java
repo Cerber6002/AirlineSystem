@@ -7,4 +7,8 @@ module org.example.airlinesystem {
 
     opens org.example.airlinesystem to javafx.fxml;
     exports org.example.airlinesystem;
+    exports org.example.airlinesystem.dao;
+    opens org.example.airlinesystem.dao to javafx.fxml;
+    exports org.example;
+    opens org.example to javafx.fxml;
 }
