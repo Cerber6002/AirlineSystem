@@ -46,19 +46,19 @@
                <padding>
                   <Insets top="10.0" />
                </padding></Label>
-            <TextField layoutX="130.0" layoutY="81.0" />
-            <TextField layoutX="130.0" layoutY="120.0" />
-            <RadioButton layoutX="130.0" layoutY="165.0" mnemonicParsing="false" text="Male" />
-            <RadioButton layoutX="210.0" layoutY="165.0" mnemonicParsing="false" text="Female" />
-            <TextField layoutX="130.0" layoutY="200.0" />
-            <TextField layoutX="130.0" layoutY="240.0" />
-            <PasswordField layoutX="130.0" layoutY="282.0" />
-            <Button layoutX="149.0" layoutY="342.0" mnemonicParsing="false" text="Registrate">
+            <TextField fx:id="nameField" layoutX="130.0" layoutY="81.0" />
+            <TextField fx:id="surnameField" layoutX="130.0" layoutY="120.0" />
+            <RadioButton fx:id="maleRadio" layoutX="130.0" layoutY="165.0" mnemonicParsing="false" text="Male" />
+            <RadioButton fx:id="femaleRadio" layoutX="210.0" layoutY="165.0" mnemonicParsing="false" text="Female" />
+            <TextField fx:id="ageField" layoutX="130.0" layoutY="200.0" />
+            <TextField fx:id="emailField" layoutX="130.0" layoutY="240.0" />
+            <PasswordField fx:id="passwordField" layoutX="130.0" layoutY="282.0" />
+            <Button layoutX="149.0" layoutY="342.0" mnemonicParsing="false" onAction="#registerUser" text="Registrate">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="307.0" layoutY="342.0" mnemonicParsing="false" text="Clear">
+            <Button layoutX="307.0" layoutY="342.0" mnemonicParsing="false" onAction="#clearFields" text="Clear">
                <font>
                   <Font size="15.0" />
                </font>
