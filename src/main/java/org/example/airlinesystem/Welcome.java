@@ -20,5 +20,15 @@ public class Welcome {
         stage.setScene(scene);
         stage.show();
     }
+
+    @FXML
+    public void goToLogin(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/org/example/airlinesystem/Login.fxml")));
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
 }
 

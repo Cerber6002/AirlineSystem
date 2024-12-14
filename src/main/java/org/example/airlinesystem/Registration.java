@@ -8,6 +8,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.scene.control.*;
+import org.example.airlinesystem.dao.RegistrationDAO;
 
 import java.io.IOException;
 import java.util.Objects;
@@ -44,19 +45,24 @@ public class Registration {
         String email = emailField.getText();
         String password = passwordField.getText();
 
+        // Проверка на пустые поля
         if (name.isEmpty() || surname.isEmpty() || age.isEmpty() || email.isEmpty() || password.isEmpty()) {
             showAlert("Please fill all fields!");
             return;
         }
 
-        try {
+        // Регистрация пользователя в базе данных
+        boolean isRegistered = RegistrationDAO.registerUser(name, surname, gender, age, email, password);
 
+        if (isRegistered) {
             showAlert("Registration successful!");
-
-            // Возвращаемся на Welcome.fxml
-            goToWelcome(event);
-        } catch (Exception e) {
-            e.printStackTrace();
+            try {
+                goToWelcome(event);
+            } catch (IOException e) {
+                e.printStackTrace();
+                showAlert("Failed to go to welcome screen.");
+            }
+        } else {
             showAlert("Registration failed! Please try again.");
         }
     }
