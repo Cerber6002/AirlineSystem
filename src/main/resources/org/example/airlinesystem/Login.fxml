@@ -16,5 +16,6 @@
       <Button fx:id="LoginFiled" layoutX="110.0" layoutY="290.0" mnemonicParsing="false" text="Login" />
       <Label fx:id="errorLabel" layoutX="87.0" layoutY="335.0" prefHeight="23.0" prefWidth="95.0" />
       <TextField fx:id="enterEmail" layoutX="63.0" layoutY="120.0" />
+      <Label layoutX="119.0" layoutY="338.0" text="Label" />
    </children>
 </Pane>
