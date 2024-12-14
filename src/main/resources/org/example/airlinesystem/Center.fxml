@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1">
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
   <tabs>
     <Tab text="Search">
          <content>
@@ -49,11 +49,20 @@
                         <Font size="32.0" />
                      </font>
                   </Label>
-                  <Label layoutX="484.0" layoutY="223.0" text="Search">
+                  <Label layoutX="526.0" layoutY="225.0" text="Search">
                      <font>
                         <Font size="15.0" />
                      </font>
                   </Label>
+                  <TableView layoutX="107.0" layoutY="236.0" prefHeight="134.0" prefWidth="374.0">
+                    <columns>
+                      <TableColumn prefWidth="75.0" text="C1" />
+                      <TableColumn prefWidth="75.0" text="C2" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                        <TableColumn prefWidth="75.0" text="C2" />
+                    </columns>
+                  </TableView>
                </children>
             </AnchorPane>
          </content></Tab>
