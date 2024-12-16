@@ -53,12 +53,17 @@
             <TextField fx:id="ageField" layoutX="130.0" layoutY="200.0" />
             <TextField fx:id="emailField" layoutX="130.0" layoutY="240.0" />
             <PasswordField fx:id="passwordField" layoutX="130.0" layoutY="282.0" />
-            <Button layoutX="149.0" layoutY="342.0" mnemonicParsing="false" onAction="#registerUser" text="Registrate">
+            <Button layoutX="130.0" layoutY="342.0" mnemonicParsing="false" onAction="#registerUser" text="Registrate">
                <font>
                   <Font size="15.0" />
                </font>
             </Button>
-            <Button layoutX="307.0" layoutY="342.0" mnemonicParsing="false" onAction="#clearFields" text="Clear">
+            <Button layoutX="294.0" layoutY="342.0" mnemonicParsing="false" onAction="#clearFields" text="Clear">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="410.0" layoutY="342.0" mnemonicParsing="false" onAction="#goToWelcome" text="Back">
                <font>
                   <Font size="15.0" />
                </font>

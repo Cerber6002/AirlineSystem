@@ -68,7 +68,8 @@ public class Registration {
     }
 
     // Переход на Welcome.fxml
-    private void goToWelcome(ActionEvent event) throws IOException {
+    @FXML
+    public void goToWelcome(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/org/example/airlinesystem/Welcome.fxml")));
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         Scene scene = new Scene(root);
