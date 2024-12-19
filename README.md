@@ -28,4 +28,8 @@ https://www.canva.com/design/DAGZbz846IY/Qqwkz-mMVDkCkmYv_iFdRg/edit?utm_content
 -Zhyldyzbekov Sultan(fxml disign,code)
 -Gairatbekov Kasymbek(database,code)
 
-6)
+6)Screenshots:Done
+
+7)Weekly Meeting Documentation:Done
+
+8)
