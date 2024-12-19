@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="AirlineSystem-master (1):jar">
-    <output-path>$PROJECT_DIR$/../../Javapro</output-path>
-    <root id="archive" name="AirlineSystem-master (1).jar" />
-  </artifact>
-</component>
