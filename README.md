@@ -51,17 +51,17 @@ The following key functionalities are essential for the completion of the projec
 
 ## Screenshots
 Below are key screenshots showcasing the application:
-- **Welcome**: ![Welcome]()
-- **Registration**: ![Registration]() 
-- **Login**: ![Login]() 
-- **Seaarch**: ![Search]() 
-- **Flights**: ![Flights]() 
-- **Ticket**: ![Ticket]() 
-- **DataBase**:![Database]() 
+- **Welcome**: ![Welcome](Screens/Welcome.png)
+- **Registration**: ![Registration](Screens/Registration.jpg) 
+- **Login**: ![Login](Screens/Login.jpg) 
+- **Seaarch**: ![Search](Screens/Search.jpg) 
+- **Flights**: ![Flights](Screens/Flights.jpg) 
+- **Ticket**: ![Ticket](Screens/Ticket.jpg) 
+- **DataBase**:![Users](Screens/UsersTable.png) ![Flights](Screens/FlightsTable.png) ![Ticket](Screens/TicketTable.jpg)
 
 ## UML Class Diagram
 The UML class diagram provides a visual representation of the system’s structure, detailing the classes, attributes, methods, and their relationships.
-![UML Diagram]()
+![UML Diagram](UML/1.jpg) ![UML Diagram](UML/2.jpg) ![UML Diagram](UML/3.jpg)
 
 
 ## Weekly Meeting Documentation
